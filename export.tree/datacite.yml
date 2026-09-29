@@ -1,0 +1,67 @@
+data:
+  attributes:
+    types:
+      resourceTypeGeneral: Dataset
+    contributors:
+      - name: Weng-Lam Cheang
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_0
+          - nameIdentifier: https://orcid.org/0009-0007-9415-4308
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: Researcher
+        order: 1
+      - name: Weng-Lam Chan
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: DataCollector
+        order: 2
+      - name: Yiting Zhu
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: DataCollector
+        order: 3
+      - name: Xinwen Jiang
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: DataCollector
+        order: 4
+      - name: Cheng-Teng Ip
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Supervisor
+        order: 5
+      - name: Minglei Zhang
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Sponsor
+        order: 6
+    creators:
+      - name: Weng-Lam Cheang
+        nameType: Personal
+        nameIdentifiers: *ref_0
+      - name: Weng-Lam Chan
+        nameType: Personal
+      - name: Yiting Zhu
+        nameType: Personal
+      - name: Xinwen Jiang
+        nameType: Personal
+      - name: Cheng-Teng Ip
+        nameType: Personal
+      - name: Minglei Zhang
+        nameType: Personal
+    descriptions:
+      - description: N/A
+        descriptionType: Abstract
