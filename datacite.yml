@@ -11,7 +11,7 @@ data:
           - nameIdentifier: https://orcid.org/0009-0007-9415-4308
             nameIdentifierScheme: ORCID
             schemeUri: https://orcid.org
-        contributorType: Researcher
+        contributorType: ContactPerson
         order: 1
       - name: Weng-Lam Chan
         givenName: ''
