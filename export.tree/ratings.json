@@ -1,0 +1,47 @@
+{
+  "participant_id": {
+    "Description": "Unique participant identifier.",
+    "Format": "sub-XX"
+  },
+  "song_id": {
+    "Description": "Unique identifier of the music stimulus presented during the experiment.",
+    "Format": "tXX"
+  },
+  "Song Catergory": {
+    "Description": "Emotion category assigned to the music stimulus according to the intended affective label.",
+    "Levels": {
+      "LVLA": "Low Valence Low Arousal",
+      "LVHA": "Low Valence High Arousal",
+      "HVLA": "High Valence Low Arousal",
+      "HVHA": "High Valence High Arousal",
+      "N": "Neutral"
+    }
+  },
+  "Valence": {
+    "Description": "Participant self-reported valence rating after listening to the music stimulus.",
+    "Units": "ordinal score",
+    "Range": [1, 9]
+  },
+  "Arousal": {
+    "Description": "Participant self-reported arousal rating after listening to the music stimulus.",
+    "Units": "ordinal score",
+    "Range": [1, 9]
+  },
+  "Likeability": {
+    "Description": "Participant self-reported degree of liking for the music stimulus.",
+    "Units": "ordinal score",
+    "Range": [1, 5]
+  },
+  "Familiarity": {
+    "Description": "Participant self-reported familiarity with the music stimulus.",
+    "Units": "ordinal score",
+    "Range": [1, 5]
+  },
+  "Remark": {
+    "Description": "Additional notes associated with the trial or recording.",
+    "Levels": {
+      "0 = data missing": "Behavioral rating is unavailable.",
+      "missing EEG data": "EEG recording for this trial is unavailable."
+    }
+  }
+}
